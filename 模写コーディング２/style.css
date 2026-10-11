@@ -1,0 +1,130 @@
+/*共通設定*/
+html{
+    font-size: 100%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #f4f9ff;
+    color: #333;
+    max-width: 1000px;
+}
+
+img{
+    max-width: 100%;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+.list .content{
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    #detail .parent{
+        flex-direction: column;
+    }
+}
+
+/*ヘッダー*/
+h1{
+    margin: 40px 0 0 0;
+}
+
+h1 img{
+    width: 160px;
+}
+
+#header a{
+    display: block;
+}
+
+
+/*メイン*/
+
+/*mainvisual*/
+#mainvisual {
+  margin-bottom: 60px;
+}
+
+/*index*/
+#index{
+    padding:20px 0 5px 0;
+    margin-bottom: 60px;
+    background-color: white;
+}
+
+.list{
+    max-width: 600px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+li{
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+}
+
+
+/*detail*/
+#detail{
+    width: 600px;
+    margin-bottom: 100px;
+}
+
+#detail img{
+    width: 250px;
+    margin-right: 60px;
+}
+
+
+.content{
+    width: 600px;
+}
+
+.parent{
+    display: flex;
+    align-items: flex-start;
+}
+
+.child{
+    text-align: left;
+}
+
+dl{
+    display: flex;
+    font-size: 0.9rem;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+dt{
+    
+}
+
+dd{
+    
+}
+
+#detail p{
+    font-size: 0.9rem;
+}
+
+#detail a{
+    font-size: 0.9rem;
+    color: #333;
+}
+
+
+
+
+/*フッター*/
+footer p{
+    font-size: 0.6rem;
+    margin-left: 150px;
+}
+
